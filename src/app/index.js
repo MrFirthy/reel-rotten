@@ -1,6 +1,14 @@
 'use strict';
 
-angular.module('reelRotten', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngResource', 'ui.router', 'ngMaterial'])
+angular.module('reelRotten', [
+    'ngAnimate',
+    'ngCookies',
+    'ngTouch',
+    'ngSanitize',
+    'ngResource',
+    'ui.router',
+    'ngMaterial'
+])
   .config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider
       .state('home', {

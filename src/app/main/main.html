@@ -13,12 +13,14 @@
     </section>
 
     <main>
-        <div id="flat-slider" value-slider="{min: 0, max: 100, range: true, values: [20, 80]}"></div>
-        <button class="btn">Value</button>
-        <h3>Values: <span class="slider-values"></span></h3>
+        <div slider min="0" max="100" range="true" values="values"></div>
+        {{values}}
+        <!-- <div id="flat-slider" value-slider="{min: 0, max: 100, range: true, values: [20, 80]}"></div> -->
+        <!-- <button class="btn">Value</button> -->
+        <!-- <h3>Values: <span class="slider-values"></span></h3> -->
     </main>
 
-    <div class="techs" layout-align="center">
+    <!-- <div class="techs" layout-align="center">
       <md-card ng-repeat="awesomeThing in awesomeThings | orderBy:'rank'">
         <div class="thumbnail">
           <img class="pull-right" ng-src="assets/images/{{awesomeThing.logo}}" alt="{{awesomeThing.title}}">
@@ -34,7 +36,7 @@
       <md-toolbar layout="row" layout-align="center center">
         <p>With ♥ from <a href="https://twitter.com/Swiip">@Swiip</a></p>
       </md-toolbar>
-    </footer>
+  </footer> -->
   </md-content>
 
 </div>

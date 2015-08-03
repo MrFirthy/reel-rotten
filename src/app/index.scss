@@ -4,6 +4,10 @@ html {
   font-family: 'Roboto Slab', serif;
 }
 
+body > div {
+    height: 100%;
+}
+
 [layout=row] {
   flex-direction: row;
 }
@@ -74,10 +78,10 @@ $bg: #434d5a;
 }
 
 
-[id*=flat-slider].ui-slider .ui-slider-handle.ui-state-hover, 
-[id*=flat-slider].ui-slider .ui-slider-handle.ui-state-focus, 
+[id*=flat-slider].ui-slider .ui-slider-handle.ui-state-hover,
+[id*=flat-slider].ui-slider .ui-slider-handle.ui-state-focus,
 [id*=flat-slider].ui-slider .ui-slider-handle.ui-state-active {
-      border-color: white; 
+      border-color: white;
 }
 
 #flat-slider {
@@ -94,11 +98,11 @@ $bg: #434d5a;
       margin: 0.5em 1em;
       font-weight: 300;
       font-size: 1.3em;
-      
+
       &:nth-of-type(1) {
           margin-top: 3em;
       }
-      
+
       &:last-child {
           font-weight: 100;
           font-size: 1em;
@@ -108,4 +112,3 @@ $bg: #434d5a;
       }
   }
 }
-
